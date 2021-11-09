@@ -16,6 +16,10 @@
     margin: 0 2px;
 }
 
+.menu-h {
+    display: none;
+}
+
 .square {
     height: 100px;
     background-color: red;
@@ -56,9 +60,11 @@ header {
 /* media */
 
 @media screen and (max-width:767px) {
-    header .container .row .co-md-1,
     header .container .row .col-md-1 {
         display: none;
     }
     
+    .menu-h {
+        display: block;
+    }
 }

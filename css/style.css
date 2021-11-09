@@ -1,5 +1,9 @@
-.placeholder_1 img {
+.placeholder_1{
     width: 50%;
+}
+
+.txt_center {
+    text-align: center;
 }
 
 /* header */

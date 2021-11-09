@@ -52,3 +52,13 @@ header {
 .bottom-footer {
     background-color: #2C3E50;
 }
+
+/* media */
+
+@media screen and (max-width:767px) {
+    header .container .row .co-md-1,
+    header .container .row .col-md-1 {
+        display: none;
+    }
+    
+}

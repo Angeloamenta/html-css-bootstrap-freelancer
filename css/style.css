@@ -1,5 +1,12 @@
 /* header */
+
 header {
     background-color: #2C3E50;
-    height: 80px;
+    color: white;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: #1ABC9C;
 }

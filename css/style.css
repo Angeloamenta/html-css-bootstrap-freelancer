@@ -6,6 +6,16 @@
     text-align: center;
 }
 
+/* star da riutilizzare */
+
+.star::after,
+.star:before {
+    content: "________";
+    display: inline-block;
+    vertical-align: super;
+    margin: 0 2px;
+}
+
 .square {
     height: 100px;
     background-color: red;
@@ -26,4 +36,9 @@ header {
 
 .just_center {
     justify-content: center;
+}
+
+/* about */
+.about {
+    background-color: #1ABC9C;
 }

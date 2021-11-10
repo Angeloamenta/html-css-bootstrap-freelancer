@@ -132,8 +132,24 @@ header .hamburger a {
 /* about */
 .about {
     background-color: #1ABC9C;
+    font-size: 1em;
+    color: white;
 }
 
+.about h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.white_color {
+    color: white;
+    border: 1px solid white;
+}
+
+.download {
+    margin-right: 5px;
+}
 /* footer */
 
 .top-footer {

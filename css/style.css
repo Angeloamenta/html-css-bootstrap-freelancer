@@ -150,6 +150,31 @@ header .hamburger a {
 .download {
     margin-right: 5px;
 }
+
+/* contact */
+
+.contact h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact form input,
+.contact form textarea {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+.contact form button.btn{
+    background-color: #1ABC9C;
+    border: none;
+}
+
+
+
+.contact .first-n:target .input-class {
+    background-color: yellow;
+}
 /* footer */
 
 .top-footer {

@@ -22,9 +22,9 @@ a {
 
 .star::after,
 .star:before {
-    /* content: "________"; */
-    content: "";
-    border-bottom: 1px solid black;
+    content: "________";
+    /* content: "";
+    border-bottom: 1px solid black; */
     width: 10%;
     display: inline-block;
     vertical-align: super;

@@ -170,17 +170,33 @@ header .hamburger a {
     border: none;
 }
 
-
-
-.contact .first-n:target .input-class {
-    background-color: yellow;
-}
+/* input:focus + label,
+input.hasvalue + label {
+  transform: translate3d(0, -.8em, 0) scale3d(0.55, 0.55, 1);
+} */
 /* footer */
 
 .top-footer {
     background-color: #3A546D;
+    color: white;
 }
 
+.top-footer h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+.top-footer ul li a {
+    border: solid 1px white;
+    background-color: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    border-radius: 100%;
+
+}
 .bottom-footer {
     background-color: #2C3E50;
 }

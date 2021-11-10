@@ -208,6 +208,10 @@ header .hamburger :hover{
     background-color: #3A546D;
 }
 
+.form-group:focus-within  label {
+    transform: scale(0.8);
+}
+
 /* input:focus + label,
 input.hasvalue + label {
   transform: translate3d(0, -.8em, 0) scale3d(0.55, 0.55, 1);

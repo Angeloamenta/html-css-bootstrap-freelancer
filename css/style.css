@@ -46,7 +46,7 @@ header a {
 }
 
 header .hamburger a {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 /* jumbotron */
 
@@ -78,6 +78,20 @@ header .hamburger a {
     content: "-";
     margin: 0 3px;
 }
+
+/* portfolio */
+
+.portfolio img {
+    max-width: 100%;
+    transition: 1.5s;
+}
+
+.portfolio img:hover {
+    opacity: 0;
+}
+
+
+
 /* about */
 .about {
     background-color: #1ABC9C;

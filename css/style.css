@@ -22,7 +22,10 @@ a {
 
 .star::after,
 .star:before {
-    content: "________";
+    /* content: "________"; */
+    content: "";
+    border-bottom: 1px solid black;
+    width: 10%;
     display: inline-block;
     vertical-align: super;
     margin: 0 2px;
@@ -45,9 +48,28 @@ header a {
     text-transform: uppercase;
 }
 
+header a:hover {
+    color: #1ABC9C;
+}
+
 header .hamburger a {
     font-size: 1.2em;
 }
+
+header .fa-bars {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.9em;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+header .hamburger :hover{
+    border-color: #1ABC9C;
+}
+
 /* jumbotron */
 
 .jumbotron {
@@ -130,16 +152,16 @@ header .hamburger a {
 
 
 /* about */
+
+.about h3 {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 .about {
     background-color: #1ABC9C;
     font-size: 1em;
     color: white;
-}
-
-.about h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-transform: uppercase;
 }
 
 .white_color {
@@ -149,6 +171,11 @@ header .hamburger a {
 
 .download {
     margin-right: 5px;
+}
+
+.about .container button:hover {
+    background-color: white;
+    color: black;
 }
 
 /* contact */
@@ -168,6 +195,10 @@ header .hamburger a {
 .contact form button.btn{
     background-color: #1ABC9C;
     border: none;
+}
+
+.contact form button.btn:hover {
+    background-color: #3A546D;
 }
 
 /* input:focus + label,
@@ -203,8 +234,8 @@ input.hasvalue + label {
 }
 
 .top-footer ul li a:hover {
-    color: #1ABC9C;
-    border-color: #1ABC9C;
+    color: #3A546D;
+    background-color: white;
 }
 
 .top-footer .st-bootstrap a {

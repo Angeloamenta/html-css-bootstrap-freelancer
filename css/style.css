@@ -197,6 +197,10 @@ input.hasvalue + label {
     border-radius: 100%;
 
 }
+
+.top-footer .st-bootstrap a {
+    color: #1ABC9C;
+}
 .bottom-footer {
     background-color: #2C3E50;
 }

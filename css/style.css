@@ -11,6 +11,13 @@ a {
     text-align: center;
 }
 
+.p_absolute {
+    position: absolute;
+}
+
+.p_relative {
+    position: relative;
+}
 /* star da riutilizzare */
 
 .star::after,
@@ -19,13 +26,6 @@ a {
     display: inline-block;
     vertical-align: super;
     margin: 0 2px;
-}
-
-
-.square {
-        width: 100%;
-        height: 300px;
-        background-color: red;
 }
 
 /* header */
@@ -81,8 +81,18 @@ header .hamburger a {
 
 /* portfolio */
 
+.portfolio h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.portfolio {
+    font-size: 1.5em;
+}
+
 .portfolio img {
-    max-width: 100%;
+    width: 100%;
     transition: 1.5s;
 }
 

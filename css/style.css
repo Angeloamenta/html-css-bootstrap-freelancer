@@ -186,6 +186,11 @@ input.hasvalue + label {
     text-transform: uppercase;
 }
 
+.top-footer ul {
+    display: flex;
+    justify-content: center;
+}
+
 .top-footer ul li a {
     border: solid 1px white;
     background-color: none;
@@ -195,7 +200,11 @@ input.hasvalue + label {
     line-height: 50px;
     font-size: 1.2em;
     border-radius: 100%;
+}
 
+.top-footer ul li a:hover {
+    color: #1ABC9C;
+    border-color: #1ABC9C;
 }
 
 .top-footer .st-bootstrap a {
@@ -208,12 +217,51 @@ input.hasvalue + label {
 
 /* media */
 
-/* @media screen and (max-width:767px) {
-    header .container .row .col-md-1 {
-        display: none;
+@media screen and (max-width:768px) {
+    header h1 {
+        font-size: 1.1em;
+    }
+
+    .jumbotron >* {
+        font-size: 1.1em;
     }
     
-    .menu-h {
-        display: block;
+    .top-footer {
+        font-size: 1em;
     }
-} */
+
+    .top-footer ul li a {
+        display: block;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 1.1em;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    header h1 {
+        font-size: 0.9em;
+    }
+
+    .jumbotron >* {
+        font-size: 0.8em;
+    }
+
+    .portfolio .alt_{
+        height: 300px;
+    }
+
+    .top-footer h3{
+        font-size: 1em;
+    }
+
+    /* .top-footer ul li a {
+        display: block;
+        width: 29px;
+        height: 29px;
+        line-height: 29px;
+        font-size: 1.1em;
+    } */
+}
